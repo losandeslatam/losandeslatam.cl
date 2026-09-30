@@ -2,8 +2,93 @@
 :root{--navy:#032e50;--blue:#0b4777;--ink:#0b3a66;--line:#dce8f1;--whatsapp:#20b66b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#173f62;background:#fff}a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 28px}.top{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff}.nav{height:62px;display:flex;align-items:center;gap:24px}.brand{margin-right:auto;display:flex;align-items:center}.brand img{width:260px;height:80px;object-fit:contain;object-position:center;mix-blend-mode:screen}.links{display:flex;gap:25px;font-size:13px}.links a{opacity:.96}.links a:first-child{border-bottom:2px solid #62d5d9;padding-bottom:10px}.actions{display:flex;align-items:center;gap:14px}.lang{position:relative}.lang button{border:0;background:transparent;color:#fff;font-size:13px;cursor:pointer;padding:10px}.lang-menu{display:none;position:absolute;right:0;top:40px;background:#fff;color:#163c5e;border-radius:8px;min-width:130px;box-shadow:0 10px 30px #0003;overflow:hidden}.lang-menu.show{display:block}.lang-menu div{padding:11px 14px;cursor:pointer}.wa-top{border:1px solid #fff;border-radius:22px;padding:10px 16px;font-weight:700;font-size:13px}.hero{min-height:370px;position:relative;overflow:hidden;background:linear-gradient(90deg,#dceeff 0%,#eef7fd 35%,#fff 50%,#eef7fd 65%,#dceeff 100%);display:flex;align-items:center}.hero-side{position:absolute;top:0;bottom:0;width:38%;background-size:cover;background-position:center}.hero-side.left{left:0;background-image:linear-gradient(90deg,rgba(255,255,255,.02),rgba(255,255,255,.9)),url('assets/hero-left.jpg')}.hero-side.right{right:0;background-image:linear-gradient(270deg,rgba(255,255,255,.02),rgba(255,255,255,.9)),url('assets/hero-right.jpg')}.hero-inner{position:relative;z-index:2;text-align:center;max-width:690px;margin:auto;padding:35px 20px}.hero h1{font:700 47px/1.06 Georgia,serif;color:#08365f;margin:0 0 14px}.tags{font-size:20px;color:#133e66;margin-bottom:18px}.hero p{font-size:16px;line-height:1.5;max-width:660px;margin:0 auto 23px}.cta{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:26px;padding:13px 24px;font-weight:700;font-size:14px}.btn.dark{background:#073e6c;color:#fff}.btn.outline{background:#fff;border:1px solid #1c537f}.btn.green{background:var(--whatsapp);color:#fff}.services{padding:22px 0 12px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.card{border:1px solid var(--line);background:#fff;border-radius:3px;overflow:hidden;box-shadow:0 2px 9px #143a5d10}.card img{width:100%;height:145px;object-fit:cover}.card-body{padding:15px 16px 17px}.card h3{font:700 19px/1.05 Georgia,serif;color:#0b3a66;margin:0 0 10px}.card p{font-size:13px;line-height:1.45;color:#4b647a;min-height:55px}.card ul{list-style:none;padding:0;margin:12px 0 14px;font-size:13px;line-height:1.55}.card li:before{content:'●';color:#0b4777;font-size:10px;margin-right:8px}.more{font-weight:700;color:#0874c9;font-size:13px}.region{padding:0 0 28px}.split{display:grid;grid-template-columns:1fr 1fr;gap:4px}.panel{min-height:205px;padding:32px 44px;color:#fff;background-size:cover;background-position:center;position:relative;display:flex;flex-direction:column;justify-content:center}.panel:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,52,89,.28),rgba(7,52,89,.08))}.panel>*{position:relative}.panel.china{background-image:url('assets/china.jpg')}.panel.chile{background-image:url('assets/chile.jpg')}.panel h3{font:700 27px/1.05 Georgia,serif;margin:0 0 10px}.panel p{margin:0 0 18px;line-height:1.5}.panel .btn{align-self:flex-start;border:1px solid #fff;color:#fff;padding:11px 20px}.why{padding:26px 0 34px}.why h2{text-align:center;font:700 31px Georgia,serif;color:#0b3a66;margin:0 0 27px}.why-grid{display:grid;grid-template-columns:repeat(5,1fr);text-align:center}.why-item{padding:0 18px;border-right:1px solid #cbdbe7}.why-item:last-child{border:0}.ico{font-size:36px;color:#0b4777}.why-item h3{font:700 16px Georgia,serif;color:#0b3a66;margin:9px 0 5px}.why-item p{font-size:12px;line-height:1.35;margin:0;color:#47627a}.cases{min-height:180px;background:url('assets/cases.jpg') center/cover;position:relative;color:#fff}.cases:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,46,80,.72),rgba(3,46,80,.18))}.cases .wrap{position:relative;padding-top:28px;padding-bottom:28px}.cases h2{font:700 36px Georgia,serif;margin:0 0 6px}.cases p{margin:0 0 18px}.footer{background:#032e50;color:#fff;padding:22px 0 18px}.foot-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr 1.2fr;gap:30px;align-items:start}.foot-brand img{width:200px;height:90px;object-fit:contain;mix-blend-mode:screen}.footer h4{margin:0 0 9px}.footer p,.footer a{font-size:13px;line-height:1.7;color:#d8e5ee}.bottom{border-top:1px solid #315775;margin-top:18px;padding-top:13px;font-size:11px;color:#bdd0df;display:flex;justify-content:space-between}.mobile{display:none}
 @media(max-width:850px){.links{display:none}.brand img{width:150px;height:auto;max-height:none;display:block}.wa-top{display:none}.hero h1{font-size:38px}.hero-side{width:48%;opacity:.65}.grid{grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr}.why-grid{grid-template-columns:1fr 1fr}.why-item{border:0;border-bottom:1px solid #dbe5ed;padding:16px}.foot-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.wrap{padding:0 16px}.nav{height:58px}.brand img{width:165px}.hero{min-height:430px}.hero h1{font-size:34px}.tags{font-size:17px}.grid{grid-template-columns:1fr}.card img{height:190px}.why-grid,.foot-grid{grid-template-columns:1fr}.split{grid-template-columns:1fr}.panel{padding:28px 22px}.bottom{display:block}.bottom div+div{margin-top:6px}}
+
+/* ==========================
+   MENU DESPLEGABLE LOS ANDES
+========================== */
+.dropdown{
+  position:relative;
+  display:flex;
+  align-items:center;
+}
+.dropdown>a{
+  display:flex;
+  align-items:center;
+  height:62px;
+  white-space:nowrap;
+}
+.dropdown-content{
+  display:none;
+  position:absolute;
+  top:62px;
+  left:0;
+  min-width:240px;
+  background:#fff;
+  padding:8px 0;
+  border-radius:0 0 8px 8px;
+  box-shadow:0 10px 30px rgba(0,0,0,.18);
+  z-index:9999;
+}
+.dropdown-content a{
+  display:block;
+  height:auto;
+  padding:13px 20px;
+  color:#163c5e !important;
+  background:#fff;
+  font-size:13px;
+  font-weight:400;
+  white-space:nowrap;
+  border-bottom:0 !important;
+  transition:.2s ease;
+}
+.dropdown-content a:hover{
+  background:#f1f7fb;
+  color:#0874c9 !important;
+  padding-left:24px;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
 </style></head><body>
-<header class="top"><div class="wrap nav"><a class="brand" href="#inicio"><img src="logo-header.png" alt="Los Andes"></a><nav class="links"><a data-t="nav_home" href="#inicio">Inicio</a><a data-t="nav_about" href="#nosotros">Nosotros</a><a data-t="nav_services" href="#servicios">Servicios⌄</a><a data-t="nav_china" href="#china">China⌄</a><a data-t="nav_chile" href="#chile">Chile⌄</a><a href="#casos">Casos de éxito</a><a data-t="nav_contact" href="#contacto">Contacto</a></nav><div class="actions"><div class="lang"><button id="langBtn">🌐 ES⌄</button><div class="lang-menu" id="langMenu"><div onclick="setLang('es')">🇨🇱 Español ✓</div><div onclick="setLang('zh')">🇨🇳 中文</div></div></div><a class="wa-top" href="https://wa.me/56973078882?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Los%20Andes%20y%20quisiera%20consultar%20por%20sus%20servicios." target="_blank">◉ WhatsApp</a></div></div></header>
+<header class="top"><div class="wrap nav"><a class="brand" href="#inicio"><img src="logo-header.png" alt="Los Andes"></a><nav class="links">
+<a data-t="nav_home" href="#inicio">Inicio</a>
+<a data-t="nav_about" href="#nosotros">Nosotros</a>
+
+<div class="dropdown">
+  <a data-t="nav_services" href="#servicios">Servicios⌄</a>
+  <div class="dropdown-content">
+    <a href="negocios.html">Negocios</a>
+    <a href="proveedores.html">Proveedores</a>
+    <a href="viajes.html">Viajes</a>
+    <a href="traduccion.html">Traducción e interpretación</a>
+    <a href="representacion.html">Representación comercial</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <a data-t="nav_china" href="#china">China⌄</a>
+  <div class="dropdown-content">
+    <a href="negocios-china.html">Hacer negocios en China</a>
+    <a href="feria-canton.html">Feria de Cantón</a>
+    <a href="yiwu.html">Mercado de Yiwu</a>
+    <a href="fabricas-china.html">Visitas a fábricas</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <a data-t="nav_chile" href="#chile">Chile y Latam⌄</a>
+  <div class="dropdown-content">
+    <a href="negocios-chile.html">Hacer negocios en Chile</a>
+    <a href="desarrollo-mercado.html">Desarrollo de mercado</a>
+    <a href="visitas-clientes.html">Visitas a clientes</a>
+    <a href="representacion-chile.html">Representación local</a>
+  </div>
+</div>
+
+<a href="#casos">Casos de éxito</a>
+<a data-t="nav_contact" href="#contacto">Contacto</a>
+</nav><div class="actions"><div class="lang"><button id="langBtn">🌐 ES⌄</button><div class="lang-menu" id="langMenu"><div onclick="setLang('es')">🇨🇱 Español ✓</div><div onclick="setLang('zh')">🇨🇳 中文</div></div></div><a class="wa-top" href="https://wa.me/56973078882?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Los%20Andes%20y%20quisiera%20consultar%20por%20sus%20servicios." target="_blank">◉ WhatsApp</a></div></div></header>
 <main><section class="hero" id="inicio"><div class="hero-side left"></div><div class="hero-side right"></div><div class="hero-inner"><h1 data-t="hero_title">Conectamos China<br>con Chile y Latinoamérica</h1><div class="tags" data-t="hero_tags">Negocios　·　Viajes　·　Proveedores　·　Traducción</div><p data-t="hero_text">Te acompañamos en cada etapa, desde la búsqueda de proveedores en China hasta reuniones, negociaciones y viajes de negocios en Chile y otros países de Latinoamérica.</p><div class="cta"><a class="btn dark" href="https://wa.me/56973078882?text=Hola%2C%20vi%20la%20p%C3%A1gina%20de%20Los%20Andes%20y%20quisiera%20consultar%20por%20sus%20servicios." target="_blank" data-t="quote">◉ Cotiza por WhatsApp　→</a><a class="btn outline" href="#servicios" data-t="see_services">Ver nuestros servicios　→</a></div></div></section>
 <section class="services" id="servicios"><div class="wrap"><div class="grid">
 <article class="card"><img src="assets/servicio1.jpg"><div class="card-body"><h3 data-t="s1">Negocios</h3><p data-t="s1p">Apoyo comercial entre China, Chile y Latinoamérica para ayudarte a avanzar oportunidades y relaciones de negocio.</p><ul><li>Visitas a clientes y empresas</li><li>Reuniones y negociación comercial</li><li>Representación y seguimiento</li><li>Desarrollo de mercado</li></ul><a class="more" href="#contacto">Más información　→</a></div></article>
