@@ -32,9 +32,9 @@ const zh={nav_home:"首页",nav_about:"关于我们",nav_services:"服务项目�
 
 const elements=document.querySelectorAll("[data-t]");const langBtn=document.getElementById("langBtn");const langMenu=document.getElementById("langMenu");
 
-function setLang(lang){const dict=lang==="zh"?zh:es;elements.forEach(el=>{if(dict[el.dataset.t])el.innerHTML=dict[el.dataset.t]});document.documentElement.lang=lang==="zh"?"zh-CN":"es";langBtn.textContent=lang==="zh"?"🌐 中文⌄":"🌐 ES⌄";langMenu.classList.remove("show");localStorage.setItem("china-lang",lang)}
+function setLang(lang){const dict=lang==="zh"?zh:es;elements.forEach(el=>{if(dict[el.dataset.t])el.innerHTML=dict[el.dataset.t]});document.documentElement.lang=lang==="zh"?"zh-CN":"es";langBtn.textContent=lang==="zh"?"🌐 中文⌄":"🌐 ES⌄";langMenu.classList.remove("show");localStorage.setItem("losandes-lang",lang)}
 
 langBtn.onclick=()=>langMenu.classList.toggle("show");
 document.addEventListener("click",e=>{if(!e.target.closest(".lang"))langMenu.classList.remove("show")});
-setLang(localStorage.getItem("china-lang")||"es");
+setLang(localStorage.getItem("losandes-lang")||"es");
 </script></body></html>
